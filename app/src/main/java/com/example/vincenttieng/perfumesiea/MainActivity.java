@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import io.paperdb.Paper;
+
 public class MainActivity extends AppCompatActivity {
     Button btnSignIn, btnSignUp;
 
@@ -15,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         btnSignIn = (Button)findViewById(R.id.btnSignIn);
         btnSignUp = (Button)findViewById(R.id.btnSignUp);
-        
+
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -31,5 +33,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(signIn);
             }
         });
+
+        Paper.init(this);
+        String user = Paper.book().read(Common.USER_KEY);
+        String pwd = Paper.book().read(Common.PWD_KEY);
+        if (user != null && pwd != null)
+        {
+
+        }
     }
 }
