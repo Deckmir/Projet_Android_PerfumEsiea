@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "922952418081",
+    "firebase_url": "https://perfumesiea.firebaseio.com",
+    "project_id": "perfumesiea",
+    "storage_bucket": "perfumesiea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922952418081:android:aca9c9b1fc1de132",
+        "android_client_info": {
+          "package_name": "com.example.vincenttieng.perfumesiea"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922952418081-qur4ikffhccrg4e6flo8dc728p2k0emo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vincenttieng.perfumesiea",
+            "certificate_hash": "112bf91e9235f6dd2cd83d0a1dcaba3cbc6d1a03"
+          }
+        },
+        {
+          "client_id": "922952418081-jo7p2p2brh5dsk887icfrcf27k6295ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8Z1LyOTe7vBWXOVtaa3NTYkKpsNleKlo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922952418081-jo7p2p2brh5dsk887icfrcf27k6295ab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
